@@ -96,3 +96,53 @@ table {
     margin-top: 18.52px;
     margin-left: 161px;
 }
+
+/*  mobile
+---------------------------*/
+@media (max-width: 600px) {
+    .card {
+        width: 327px;
+        height: 512px;
+        background: #fff;
+        flex-direction: column;
+    }
+    .card-image {
+        width: auto;
+        height: 200px;
+    }
+    .text-title {
+        width: 263px;
+        height: 72px;
+        top: 310px;
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.2px;
+        color: #48556A;
+    }
+    .text-desc {
+        width: 263px;
+        height: 100px;
+        left: 56px;
+        top: 394px;
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 20px;
+        letter-spacing: 0.121875px;
+        color: #6E8098;
+        margin-top: 12px;
+    }    
+    .footer-image {
+        margin-bottom: 20px;
+    }
+    .footer-oval {
+        margin-left: 59px;
+        margin-bottom: 24px;
+    }
+
+
+}
